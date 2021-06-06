@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Firefox" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-06T21:42:09" hostname="MacBook-Pro-2" time="57.003">
+  <properties/>
+  <testcase name="test()" classname="Firefox" time="57.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Jun 07, 2021 12:42:09 AM org.openqa.selenium.remote.DesiredCapabilities firefox
+INFO: Using `new FirefoxOptions()` is preferred to `DesiredCapabilities.firefox()`
+1623015730123	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/d6/qps88lfs7wx203_g7cq52p6r0000gn/T/rust_mozprofile9akEeQ"
+1623015730672	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/d6/qps88lfs7wx203_g7cq52p6r0000gn/T/rust_mozprofile9akEeQ/search.json.mozlz4", (void 0)))
+1623015732195	Marionette	INFO	Listening on port 59390
+1623015732212	Marionette	WARN	TLS certificate errors will be ignored for this session
+Jun 07, 2021 12:42:12 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript error: https://ads.travelaudience.com/js/creative.js?version=0.0.0, line 1: TypeError: s.default.global._toCookies is not a function
+JavaScript error: https://ads.travelaudience.com/js/creative.js?version=0.0.0, line 1: TypeError: s.default.global._toCookies is not a function
+JavaScript error: https://ads.travelaudience.com/js/creative.js?version=0.0.0, line 1: TypeError: s.default.global._toCookies is not a function
+1623015786001	Marionette	INFO	Stopped listening on port 59390
+]]></system-err>
+</testsuite>
